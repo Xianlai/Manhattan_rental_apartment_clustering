@@ -3,7 +3,7 @@
 ## Abstract:
 A city functions like a gigantic sophisticate network. Within it each buildings and blocks are connected by visible transportation systems and invisible functional dependencies. But on the other hand, the difference of locations and functionality also divides the city into many sub-areas. For different purposes, the boundaries of these sub-areas are different. Like for political administration, we have boroughs, community districts and neighbourhoods, and for postal service, we have zip codes. 
 
-In this projet, I would like to make use of rental apartment online listing data set and new york building footprint data set to explore the possible geographic boundaries or patterns of apartment rental market.
+In this projet, I would like to make use of rental apartment online listing dataset and new york building footprint dataset to explore the possible geographic boundaries or patterns of apartment rental market.
 
 And we know that equivalent to finding boundaries, finding the best grouping of buildings with respect to their location and rental market popularity will help us understand the existing rental market data and get insights of its geographical form.
 
@@ -12,6 +12,16 @@ Performing unsupervised clustering technique, the direct problem we are facing i
 And at last we compare how different rental listing features like doorman, fitness center, bedroom numbers etc affect the pattern of Manhattan apartment rental popularities.
 
 <img src="images/title_image.jpg" width="1200">
+
+## Files:
+- **1_model selection.ipynb**: shows the process of clustering model selection
+- **2_clustering.ipynb**: shows the how to make use of clustering to query information we are interested in and compare clusterings with different apartment properties.
+- **interactive_clusters.py**: makes interactive plotting with the help of bokeh server. Issue command `bokeh serve --show interactive_clusters.py` in the command line, the plotting will be push to http://localhost:5006/, you can use web browser to see it.
+
+
+## Dependencies:
+This project uses third party library bokeh to perform visualization. To install bokeh, run `pip install bokeh` in command line.
+
 
 ## API References:
 - scikit-learn: Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau, Matthieu Brucher, Matthieu Perrot, Édouard Duchesnay. Scikit-learn: Machine Learning in Python, Journal of Machine Learning Research, 12, 2825-2830 (2011)
