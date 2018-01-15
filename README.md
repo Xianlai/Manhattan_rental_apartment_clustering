@@ -5,7 +5,7 @@ For different purposes, the boundaries of these sub-areas are different. Like fo
 
 In this projet, I made use of rental apartment online listing dataset and new york building footprint dataset to explore the possible geographic boundaries or patterns of apartment rental market. Equivalent to finding boundaries, clustering are performed to find the best grouping of buildings with respect to their location and rental market popularity and then we show how different properties like bedroom number, is there elevator in building, is there fitness center in building etc affect the clustering patterns.
 
-![](images/prices.png)
+![](images/prices_small.png)
 
 ## Synopsis:
 
